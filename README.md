@@ -17,3 +17,20 @@ Given a client program `RightTriangleClient.java` under the directory `src`.
  * a `public` method, named `calcArea()` that returns the area of the right triangle.
  
 **Note** DO NOT CHANGE the content of the client program `RightTriangleClient.java`.!!!
+ 
+* If your implementation of the class `RightTriangle` is correct. Then, the program `RightTriangleClient.java` will 
+ produce output as in the following examples.
+
+#### Example Run 1
+```
+$ java RightTriangleClient   
+3 4
+3.00,4.00,5.00,6.00
+``` 
+ 
+#### Example Run 2
+```
+$ java RightTriangleClient   
+5 12
+5.00,12.00,30.00,13.00 
+``` 
