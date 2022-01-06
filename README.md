@@ -1,26 +1,16 @@
 #### 03603112 Programming Fundamentals II (256402) 
-#### Lab03: Arrays and Collections
+#### Lab03: Class Creation 
 #### Student ID: <YOUR-STUDENT-ID>
 #### Student Name: <YOUR-NAME>
 
-## Homework 3-2
-Rewrite the following Python program in a Java programming language by using the class `ArrayList`.
-* Create a class, named `RemoveThirds`.
-* Rewrite the following Python code in the `main` method.
+## Homework 3-3
+Given a client program `RightTriangleClient.java` under the directory `src`.
+ Implement a `RightTriangle` class that is used by the `RightTriangleClient` program. 
+ Your `RightTriangle` class should consists of the following attributes and methods.
+ * a `private` `double` attribute, named `base` for storing the value of the triangle's base.
+ * a `private` `double` attribute, named `height` for storing the value of the triangle's height. 
+ * an `accessor` method, named `getBase()` that returns the size of the triangle's base.
+ * an `accessor` method, named `getHeight()` that returns the size of the triangle's height.
+ * a `public` method, named `calcHypotenuse()` that returns the size of the hypotenuse of the right triangle.
+ * a `public` method, named `calcArea()` that returns the area of the right triangle.
  
-```
- lst = [1, 2, 3, 2, 5, 3, 1, 3, 9]
- i = 0
- while i < len(lst):
-    if lst[i] % 3 == 0:
-        lst.pop(i)
-    else:
-        i = i + 1
- print lst
-```
-* Your program **must** display exactly the following output:
-
-```
-$ java RemoveThirds
-1 2 2 5 1
-```
