@@ -15,4 +15,4 @@ Given a client program `RightTriangleClient.java` under the directory `src`.
  * a `public` method, named `calcHypotenuse()` that returns the size of the hypotenuse of the right triangle.
  * a `public` method, named `calcArea()` that returns the area of the right triangle.
  
-*Note* DO NOT CHANGE the content of the client program `RightTriangleClient.java`.!!!
+**Note** DO NOT CHANGE the content of the client program `RightTriangleClient.java`.!!!
