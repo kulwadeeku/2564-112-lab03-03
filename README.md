@@ -5,6 +5,7 @@
 
 ## Homework 3-3
 Given a client program `RightTriangleClient.java` under the directory `src`.
+
  Implement a `RightTriangle` class that is used by the `RightTriangleClient` program. 
  Your `RightTriangle` class should consists of the following attributes and methods.
  
