@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "1",
+      "setup": "javac -version && javac -d out src/RemoveThirds.java",
+      "run": "java -cp out RemoveThirds",
+      "input": "",
+      "output": "1 2 2 5 1",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 5
+    }
+  ]
+}
